@@ -1,0 +1,64 @@
+.contenedorPrincipal{
+    display: flex;
+    display: block;
+    text-align: center; 
+    background-image:url("/imagenes/fondo.jpg");
+    opacity:unset;
+    color:azure;
+    
+
+}
+.barraNav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-image: linear-gradient(to right, rgb(36, 34, 34) , rgb(232, 237, 240));
+    word-spacing: 20px;
+
+}
+.nombreYFoto{
+    /*border: solid blue;*/
+    margin: 25px;
+    background-color: rgba(0, 0, 0, 0.555);
+    border-radius: 20px;
+}
+.foto{
+    width: 150px;
+}
+
+.sobreMi{
+  /*  border: solid red;*/
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.555);
+    border-radius: 20px;
+    margin: 25px;
+}
+.inforProyectos{
+    background-color: rgba(0, 0, 0, 0.555);
+    /*border: solid red;*/
+    border-radius: 20px;
+    margin: 25px;
+
+}
+.proyectos{    
+    display: flex;
+    justify-content: space-around;
+
+}
+.fotoJampa{
+    width: 150px;
+    height: 150px;
+}
+.fotOtros{
+    width: 150px;
+    height: 150px;  
+}
+
+.contactame{
+    border: solid gray;
+    background-image: linear-gradient(to right, rgb(36, 34, 34) , rgb(232, 237, 240));
+}
+
+.footer{
+   /* border: solid yellow;*/
+}
